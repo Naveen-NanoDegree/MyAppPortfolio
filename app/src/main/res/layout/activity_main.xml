@@ -16,73 +16,48 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
         android:layout_marginTop="41dp"
-        android:text="My NanoDegree Apps"
+        android:text="@string/mynanodegreeapps"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/button_build_it_bigger"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        style="@style/MainAppsButtonStyle"
         android:layout_below="@+id/button_stock_hawk"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"
-        android:background="@color/colorPrimaryDark"
-        android:text="Build it Bigger"
-        android:textColor="@android:color/white" />
+        android:text="@string/builtitbig" />
 
     <Button
         android:id="@+id/button_stock_hawk"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        style="@style/MainAppsButtonStyle"
         android:layout_below="@+id/button_popular_movies"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:background="@color/colorPrimaryDark"
-        android:text="Stock Hawk"
-        android:textColor="@android:color/white" />
+        android:text="@string/stock" />
 
     <Button
         android:id="@+id/button_go_ubiquitious"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        style="@style/MainAppsButtonStyle"
         android:layout_below="@+id/button_material_app"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"
-        android:background="@color/colorPrimaryDark"
-        android:text="Go Ubiquitous"
-        android:textColor="@android:color/white" />
+        android:text="@string/goObiquitious" />
 
     <Button
         android:id="@+id/button_capstone"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        style="@style/MainAppsButtonStyle"
         android:layout_below="@+id/button_go_ubiquitious"
-        android:layout_centerHorizontal="true"
-        android:background="@color/colorPrimaryDark"
-        android:text="Capstone "
-        android:textColor="@android:color/white" />
+        android:text="@string/capstone" />
 
     <Button
         android:id="@+id/button_popular_movies"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        style="@style/MainAppsButtonStyle"
         android:layout_alignLeft="@+id/button_stock_hawk"
         android:layout_alignStart="@+id/button_stock_hawk"
-
         android:layout_below="@+id/textView2"
-        android:background="@color/colorPrimaryDark"
-        android:text="Popular Movies"
-        android:textColor="@android:color/white" />
+        android:text="@string/popularmovie" />
 
     <Button
         android:id="@+id/button_material_app"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-        android:text="Make Your App Material"
-        android:textColor="@android:color/white"
-        android:layout_below="@+id/button_build_it_bigger"
+        style="@style/MainAppsButtonStyle"
         android:layout_alignLeft="@+id/button_build_it_bigger"
-        android:layout_alignStart="@+id/button_build_it_bigger" />
+        android:layout_alignStart="@+id/button_build_it_bigger"
+        android:layout_below="@+id/button_build_it_bigger"
+        android:text="@string/material" />
 </RelativeLayout>

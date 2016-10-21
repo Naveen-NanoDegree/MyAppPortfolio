@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnGoUbiquitious = (Button) findViewById(R.id.button_go_ubiquitious);
         btnCapstone = (Button) findViewById(R.id.button_capstone);
         viewOnclick();
-
-
     }
 
     @Override
@@ -46,9 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()) {
             case R.id.button_popular_movies:
-
                 displayToast("popular movie");
-
                 break;
             case R.id.button_stock_hawk:
                 displayToast("stock hawk");
@@ -66,12 +62,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 displayToast("capstone");
                 break;
         }
-
     }
 
     private void displayToast(String message) {
-
         Toast.makeText(this, "This button will launch my " + message + " app", Toast.LENGTH_SHORT).show();
-
     }
 }
